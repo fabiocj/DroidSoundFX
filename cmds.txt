@@ -1,0 +1,23 @@
+ndk-build:
+
+	cd "C:\Users\Leonardo\workspace\DroidSoundFX"
+	"C:\adt-bundle-windows\android-ndk-r8e\ndk-build"
+	
+	
+	
+LOCAL_SRC_FILES := \
+	jni_BaseEffect.cpp \
+	jni_NativeEffect.cpp \
+	jni_SoundManager.cpp \
+	utils\myutils.cpp \
+	utils\Thread.cpp \
+	utils\exception.cpp \
+	SoundCore.cpp \
+	Configuration.cpp \
+	effects\Effect.cpp \
+	effects\BaseEffect.cpp \
+	effects\JavaEffect.cpp \
+	SoundManager.cpp \
+	nativeEffects\SimpleDelayEffect.cpp
+	
+	 
